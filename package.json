@@ -1,0 +1,25 @@
+{
+  "name": "network-envanter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "@supabase/supabase-js": "^2.112.3",
+    "@xyflow/react": "^12.11.2",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.2",
+    "dagre": "^0.8.5",
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "reactflow": "^11.11.4",
+    "recharts": "^3.10.1",
+    "three": "^0.185.1"
+  }
+}
