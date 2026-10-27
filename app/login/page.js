@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function Login() {
   const router = useRouter();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("admin@admin.com");
+  const [password, setPassword] = useState("admin");
   const [error, setError] = useState("");
 
   async function handleSubmit(e) {
